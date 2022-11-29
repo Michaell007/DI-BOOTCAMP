@@ -112,6 +112,7 @@ h3 {
     .ligne {
         flex-direction: column;
     }
+
     nav {
         flex-direction: column;
         position: relative;
@@ -137,5 +138,13 @@ h3 {
         left:0;
         text-align: center;
         padding:0 8px;
+    }
+
+    .club {
+        text-align: center;
+    }
+
+    .club img {
+        width: 24%;
     }
 }
