@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@300&display=swap');
+
+body {
+    background: #edeff0;
+    font-family: 'Playfair Display', serif;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.btn-blue {
+    color: white;
+    background-color: #007dff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: none;
+}
+
+.btn {
+    color: white;
+    background-color: #007dff;
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: none;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    height: 50vh;
+    margin-top: 10px;
+    background-image: url('https://images.pexels.com/photos/1533720/pexels-photo-1533720.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+}
+
+.presentation h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.forms {
+    width: 100%;
+    text-align: center;
+}
+
+.input-search {
+    width: 25%;
+    height: 25px;
+    border: none;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.description div {
+    margin-right: 16px;
+    margin-top: 60px;
+    width: 20%;
+}

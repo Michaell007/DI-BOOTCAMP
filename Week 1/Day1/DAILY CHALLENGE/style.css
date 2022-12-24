@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Prosto+One&family=Raleway:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Prosto One', cursive;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    height: 45px;
+    background-color: black;
+    padding: 10px;
+}
+
+.header h3 {
+    color: white;
+}
+
+.zona {
+    background-image: url('./assets/168069577-2f570d08-61d3-49d8-b7dd-c4b9192aaf68.jpg');
+    background-size: cover;
+    height: 743px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.zona h1 {
+    font-weight: bold;
+    font-size: 83px;
+    margin-left: 10px;
+}
+
+.zona p {
+    width: 63%;
+    margin-left: 10px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
