@@ -1,0 +1,45 @@
+.bg-light {
+    background-color: black !important;
+}
+
+.navbar-light .navbar-brand {
+    color: white !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    background-color: green;
+    color: white;
+}
+
+.headside {
+    height: 255px;
+    padding-top: 20px;
+    background-color: #eeeeee;
+}
+
+.btn-primary {
+    background-color: #337ab7 !important;
+}
+
+.second-line {
+    padding-top: 15px;
+    margin: auto;
+}
+
+.btn-light {
+    background-color: transparent !important;
+    color: black !important;
+    border: 1px solid black;
+}
+
+.badge-secondary {
+    background-color: #337ab7 !important;
+}
