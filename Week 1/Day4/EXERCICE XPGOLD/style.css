@@ -44,3 +44,11 @@ header {
     background-color: transparent !important;
     color: white;
 }
+
+.nav-item a {
+    color: white !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+}
